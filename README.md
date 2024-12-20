@@ -15,20 +15,24 @@ Tento projekt implementuje jednoduchý interaktivní program pro práci s period
 5. **Export do Markdown souboru** - Exportuje přehled prvků ve vybrané skupině nebo periodě do formátu Markdown.
 
 ## Použití
-
-1. **Instalace požadavků**
+1. **Naklonování repozitáře**
+    ```bash
+   git clone https://github.com/JedlaTypek/chemical_elements
+   cd chemical_elements
+   ```
+2. **Instalace požadavků**
    Pro běh programu je potřeba mít nainstalované knihovny ze souboru requirements.txt. Instalaci provedete následujícím příkazem:
 
     ```bash
-      pip install -r requirements.txt
+    pip install -r requirements.txt
     ```
-2. **Spuštění programu** - Program spustíte jedním z následujících příkazů:
+3. **Spuštění programu** - Program spustíte jedním z následujících příkazů:
     ```bash
    python main.py
    # nebo
    python3 main.py
    ```
-3. **Předpokládaný výstup:**
+4. **Předpokládaný výstup:**
     ```
     MENU:
     0 - Ukončení programu
@@ -39,4 +43,4 @@ Tento projekt implementuje jednoduchý interaktivní program pro práci s period
     5 - Přehled prvků v konkrétní skupině nebo periodě do markdown souboru
     Zadej číslo předvolby:
     ```
-4. **Průchod programem je intuitivní a nepotřebuje další popis**
+5. **Průchod programem je intuitivní a nepotřebuje další popis**
